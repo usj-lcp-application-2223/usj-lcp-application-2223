@@ -1,0 +1,147 @@
+body {
+  /* overflow-y: visible; */
+  padding: 0;
+  max-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  scrollbar-width: thin;
+  overflow: overlay;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* body::-webkit-scrollbar-track {
+  background-color: #ffffff33;
+} */
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  /* background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%); */
+  background-color: #00000055;
+  /* box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5); */
+}
+
+.wrapper__section {
+  background-color: #00000033;
+  border-radius: 16px;
+  backdrop-filter: blur(20px);
+  /* box-shadow: 0 10px 10px #00000011; */
+}
+.btn-start {
+  background-color: transparent;
+  color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s ease 0s;
+}
+.btn-start:hover {
+  cursor: pointer;
+  /* transform: scale(1.14); */
+  background: #fff;
+  color: #000;
+}
+.btn-start:active {
+  transform: scale(0.9);
+  background: #fff;
+  color: #000;
+}
+
+.background {
+  filter: brightness(0.8);
+  z-index: -1;
+  background-image: url(back.png);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+  background-size: 200% 200%;
+  animation: gradient 40s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  10.355% {
+    background-position: 0% 100%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  35.355% {
+    background-position: 100% 100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  60.355% {
+    background-position: 100% 0%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  85.355% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+.wrapper__main {
+  flex: 1 0 auto;
+  margin: auto;
+}
+@media (max-width: 575.98px) {
+  .wrapper__main {
+    width: 90%;
+  }
+  .wrapper__section {
+    padding: 24px 16px;
+  }
+  .header {
+    padding: 0 2%;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 576px) {
+  .header {
+    padding: 0 4%;
+  }
+  .wrapper__main {
+    width: 90%;
+  }
+  .wrapper__section {
+    padding: 24px;
+  }
+}
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  .header {
+    padding: 0 6%;
+  }
+  .wrapper__main {
+    width: 75%;
+  }
+  .wrapper__section {
+    padding: 24px 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    padding: 0 8%;
+  }
+  .wrapper__main {
+    width: 70%;
+  }
+  .wrapper__section {
+    padding: 32px 40px;
+  }
+}
+.ant-checkbox-wrapper {
+  width: 100%;
+}
+.ant-checkbox-group {
+  width: 100%;
+}
