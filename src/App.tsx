@@ -114,7 +114,7 @@ function App() {
                   href={`#${value}`}
                   // onClick={() => selectNavItem(index)}
                   id={`tab-${index}`}
-                  className="btn btn-tab my-3 py-2 px-3 rounded-3">
+                  className="btn btn-tab my-3 py-2 px-3 rounded-3 mx-1">
                   {value.charAt(0).toUpperCase() + value.slice(1)}
                 </a>
               </div>

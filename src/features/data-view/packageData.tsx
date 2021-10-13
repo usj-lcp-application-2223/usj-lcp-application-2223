@@ -48,7 +48,7 @@ const guidelines: IListView = {
     `The application should be packaged into Zip file`,
     `Application should be named as “FirstName_LastName_LCP_2022_23.zip”
         (i.e. Vikum_Wijekoon_LCP_2022_23.zip)`,
-    `Application should be sent to vikum.wijekoon@aiesec.net on or before 04th of September 2021, 2359 hours.`,
+    `Application should be sent to vikum.wijekoon@aiesec.net on or before 31st of August 2021, 2359 hours.`,
     `No late or incomplete applications will be accepted.`,
     `For further information please refer to section 5 of the Local Committee Compendium`,
   ],
@@ -57,10 +57,10 @@ const guidelines: IListView = {
 const electionProcess: IListView = {
   title: "Election Process",
   data: [
-    `Election will be on the 19th of Septemeber 2021 from 9 a.m. onwards (Please note that due to volatile situation in the country, dates could be subject to change).`,
+    `Election will be on the 11th of Septemeber 2021 from 2 p.m. onwards (Please note that due to volatile situation in the country, dates could be subject to change).`,
     `Each candidate shall be allowed a speech of 7 minutes.`,
     `There will be question and answer round for each LCP candidate, immediately after their speech for maximum 15 minutes.`,
-    `There will be question and answer round by a panel consisting of externals for each LCP candidate, after their speech for maximum 30 minutes.`,
+    `There will be question and answer round by a panel consisting of externals for each LCP candidate, after their speech for maximum 20 minutes.`,
     `Voting shall be conducted by secret ballot.`,
     `There will be a closing speech of 3 Minutes done by each candidate.`,
   ],

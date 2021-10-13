@@ -1,10 +1,10 @@
 import React, { ReactElement } from "react";
 const dateTimes = [
-  { item: "Application Release", date: "11th Aug 2021" },
-  { item: "Application Closing", date: "04th Sep 2021" },
-  { item: "Candidate Announcement", date: "05th Sep 2021" },
-  { item: "Election", date: "19th Sep 2021" },
-  { item: "LCP Announcement", date: "19th Sep 2021" },
+  { item: "Application Release", date: "13th Aug 2021" },
+  { item: "Application Closing", date: "31st Aug 2021" },
+  { item: "Candidate Announcement", date: "01st Sep 2021" },
+  { item: "Election", date: "11th Sep 2021" },
+  { item: "LCP Announcement", date: "11th Sep 2021" },
 ];
 
 const Timeline = (): ReactElement => {

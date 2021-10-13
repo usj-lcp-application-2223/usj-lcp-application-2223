@@ -18,6 +18,7 @@ const Preface: React.FC = (props) => {
                 src={vikum}
                 style={{
                   width: "250px",
+                  height: "250px",
                   margin: "auto",
                   borderRadius: "8px",
                 }}></img>
@@ -35,16 +36,17 @@ const Preface: React.FC = (props) => {
     Wishing you the best of luck for the process and for an amazing time ahead!
     `}</p>
             <br></br>
+            {/* <div> */}
             <div className="d-flex justify-content-end flex-column align-items-end">
-              <img src={image} style={{ width: "200px" }}></img>
+              <img src={image} style={{ width: "200px", height: "72px" }}></img>
               <p className="text-end">{`Vikum Wijekoon
-              Local Committee President 21.22
-              AIESEC in University of Sri Jayewardenepura
-              `}</p>
+                Local Committee President 21.22
+                AIESEC in University of Sri Jayewardenepura
+                `}</p>
             </div>
           </div>
+          <br></br>
         </Container>
-        <br></br>
         <br></br>
         <br></br>
       </MainWrapper>
